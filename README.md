@@ -40,6 +40,7 @@ pip install raman_hyperspectra
 <img src="https://github.com/Bertin-fap/raman-hyperspectra-examples/blob/master/animated.gif" width="500" height="500" />
 
 ## Usage example
+**For more examples and usage, please refer to** [example-raman-hyperspectra](https://github.com/Bertin-fap/raman-hyperspectra-examples/blob/master/raman_hyperspectra%20examples.ipynb).
 ### read and plot a spectra/hyperspectra
 ```python
 import raman_hyperspectra as rhp
@@ -78,7 +79,7 @@ hp.Raman_PCA(da_denoise, k_PCA = 6)
 rhp.Raman_NMF(da_denoise, k_NMF = 6)
 
 ```
-For more examples and usage, please refer to [example-raman-hyperspectra](https://github.com/Bertin-fap/raman-hyperspectra-examples/blob/master/raman_hyperspectra%20examples.ipynb).
+
 
 # Release History
 0.0.1
